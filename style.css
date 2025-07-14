@@ -1,0 +1,27 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+.gradient-bg {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+.pulse-animation {
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+.skill-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.skill-icon:hover {
+  transform: scale(1.1);
+}
